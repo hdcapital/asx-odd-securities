@@ -1,0 +1,6 @@
+.env
+output/
+data/ISIN.xls
+__pycache__/
+*.pyc
+.venv/
