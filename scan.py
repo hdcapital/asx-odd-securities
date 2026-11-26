@@ -40,6 +40,7 @@ ROOT = Path(__file__).resolve().parent
 DATA_DIR = ROOT / "data"
 OUT_DIR = ROOT / "output"
 TERMS_FILE = ROOT / "option_terms.csv"
+SEC_TERMS_FILE = ROOT / "security_terms.csv"  # researched terms for every security
 
 ISIN_URLS = [
     "https://www.asx.com.au/content/dam/asx/issuers/ISIN.xls",
@@ -309,6 +310,20 @@ def load_manual_terms() -> pd.DataFrame:
     return pd.DataFrame(columns=["code", "strike", "shares_per_option", "note"])
 
 
+def load_security_terms() -> dict[str, dict]:
+    if SEC_TERMS_FILE.exists():
+        df = pd.read_csv(SEC_TERMS_FILE, dtype=str).fillna("")
+        return {r["code"]: r for r in df.to_dict("records")}
+    return {}
+
+
+def _iso(s: str) -> dt.date | None:
+    try:
+        return dt.date.fromisoformat(str(s)[:10])
+    except ValueError:
+        return None
+
+
 def infer_strikes(isin: pd.DataFrame) -> dict[tuple[str, str], float]:
     """Unquoted option series (code suffix A..) usually show the strike.
     If a company has exactly one strike for a given expiry, the quoted
@@ -372,7 +387,9 @@ def analyse_option(r: dict, P: dict, today: dt.date, inferred, manual) -> dict:
     strike, src, ratio = None, "", 1.0
     man = manual.get(r["code"])
     if man and man.get("strike", "") != "":
-        strike, src = float(man["strike"]), "Manual (option_terms.csv)"
+        note = str(man.get("note", ""))
+        strike = float(man["strike"])
+        src = note.split(":")[0] if note.startswith("Researched") else "Manual (option_terms.csv)"
         if man.get("shares_per_option"):
             ratio = float(man["shares_per_option"])
     if strike is None:
@@ -441,12 +458,27 @@ def parse_hybrid(desc: str, api_desc: str) -> dict:
     return out
 
 
-def analyse_income(r: dict, today: dt.date) -> dict:
+def analyse_income(r: dict, today: dt.date, terms: dict | None = None) -> dict:
     out = parse_hybrid(r["description"], r.get("api_description", ""))
+    terms = terms or {}
+    good = terms.get("confidence") in ("high", "medium")
     px = num(r.get("ask")) or num(r.get("last"))
-    face = None
-    if px:
+    face = num(terms.get("face_value")) if good else None
+    if face is None and px:
         face = 100.0 if 50 <= px <= 200 else (1.0 if 0.5 <= px <= 1.5 else None)
+    if good:
+        for key in ("first_call_date", "maturity_date"):
+            d = _iso(terms.get(key, ""))
+            if d and d > today:
+                out["call_or_maturity"] = d
+                break
+        m = re.search(r"([\d.]+)\s*%", terms.get("coupon_or_margin", ""))
+        if m and "BBSW" in terms.get("coupon_or_margin", "").upper():
+            out["margin"], out["rate_type"] = float(m.group(1)) / 100, "Floating"
+            out.pop("coupon", None)
+        elif m:
+            out["coupon"], out["rate_type"] = float(m.group(1)) / 100, "Fixed"
+            out.pop("margin", None)
     out["assumed_face"] = face
     flags = []
     if px and face:
@@ -527,6 +559,7 @@ def run(send_email: bool) -> Path:
     inferred = infer_strikes(isin)
     manual_df = load_manual_terms()
     manual = {r["code"]: r for r in manual_df.to_dict("records")}
+    sec_terms = load_security_terms()
 
     records = []
     for r in univ.to_dict("records"):
@@ -539,7 +572,7 @@ def run(send_email: bool) -> Path:
         if cat == "Option":
             info = analyse_option(r, P, today, inferred, manual)
         elif cat in ("Hybrid / preference", "Convertible", "Note / bond"):
-            info = analyse_income(r, today)
+            info = analyse_income(r, today, sec_terms.get(r["code"]))
             info["share_price"] = num(P.get("last"))
         elif cat == "Partly paid":
             info = analyse_partly(r, P)
@@ -548,6 +581,10 @@ def run(send_email: bool) -> Path:
         else:
             info = {"share_price": num(P.get("last")), "flags": []}
         r.update(info)
+        t = sec_terms.get(r["code"], {})
+        r["key_features"] = t.get("key_features", "")
+        r["terms_confidence"] = t.get("confidence", "")
+        r["terms_source"] = t.get("source_url", "")
 
         bid, ask, last = num(r["bid"]), num(r["ask"]), num(r["last"])
         r["spread_pct"] = (ask - bid) / ((ask + bid) / 2) if bid and ask else None

@@ -20,18 +20,21 @@ SHEETS = {
                 "share_price", "strike", "strike_source", "breakeven_strike", "bid", "ask",
                 "last", "intrinsic", "moneyness", "time_value_pct_of_share", "vol_est",
                 "model_value", "model_to_ask", "volume_today", "avg_daily_value",
-                "spread_pct", "flags", "new_since_last_run"],
+                "spread_pct", "flags", "key_features", "terms_confidence", "terms_source",
+                "new_since_last_run"],
     "Hybrids & notes": ["code", "parent", "company", "category", "description", "rate_type",
                         "coupon", "margin", "cumulative", "perpetual", "call_or_maturity",
                         "years_to_call_or_maturity", "bid", "ask", "last", "assumed_face",
                         "price_to_face", "running_yield", "approx_yield_to_call",
                         "approx_trading_margin", "yield_api", "next_ex_date",
                         "volume_today", "avg_daily_value", "spread_pct", "flags",
+                        "key_features", "terms_confidence", "terms_source",
                         "new_since_last_run"],
     "Partly paid & deferred": ["code", "parent", "company", "category", "description",
                                "share_price", "unpaid_amount", "fully_paid_equivalent_cost",
                                "bid", "ask", "last", "discount_to_shares", "volume_today",
-                               "avg_daily_value", "spread_pct", "flags", "new_since_last_run"],
+                               "avg_daily_value", "spread_pct", "flags", "key_features",
+                               "terms_confidence", "terms_source", "new_since_last_run"],
     "Other": ["code", "parent", "company", "category", "description", "share_price", "bid",
               "ask", "last", "volume_today", "avg_daily_value", "spread_pct", "flags",
               "new_since_last_run"],
@@ -52,9 +55,9 @@ NOTES = [
     ("Flags tab", "Only securities that triggered a check, real ones first. Securities whose "
      "only flag is 'No bid or offer' are left off the Flags tab but stay on their own tab."),
     ("Options: strike", "ASX does not publish strikes for quoted options in its code list. "
-     "The strike comes from (1) your option_terms.csv, (2) the ASX description if it has one, "
-     "or (3) is inferred from an unquoted series with the same expiry (check these). "
-     "Blank strikes are added to option_terms.csv for you to fill in."),
+     "Strikes come from option_terms.csv (researched from announcements, or typed in by you), "
+     "then the ASX description, then inferred from an unquoted series with the same expiry. "
+     "Anything still blank is listed in option_terms.csv to fill in."),
     ("Options: breakeven strike", "Share price minus option ask. If the real strike is BELOW "
      "this, buying the option and exercising costs less than buying the shares."),
     ("Options: model value", "Black-Scholes with volatility estimated from the share's 52-week "
@@ -66,6 +69,9 @@ NOTES = [
      "rate coupons use the BBSW_3M setting (default 3.6%) plus the margin."),
     ("Partly paid", "Fully-paid equivalent cost = partly paid ask + amount still unpaid, "
      "compared with the ordinary share bid."),
+    ("All terms tab", "Researched key terms for every security: strike, expiry, options on issue, "
+     "face value, coupon/margin, call and maturity dates, conversion terms, special features, "
+     "with source link and confidence. Stored in security_terms.csv - edit it to correct anything."),
     ("Not covered", "Exchange-traded options, bank warrants, ETFs, wholesale-only debt and "
      "unquoted securities are deliberately excluded."),
 ]
@@ -79,7 +85,8 @@ def _fmt_sheet(ws, cols: list[str]) -> None:
         cell.fill = HEADER_FILL
         cell.alignment = Alignment(wrap_text=True, vertical="center")
         letter = get_column_letter(i)
-        width = {"description": 42, "company": 30, "flags": 48, "strike_source": 26}.get(c, 12)
+        width = {"description": 42, "company": 30, "flags": 48, "strike_source": 26,
+                 "key_features": 60, "terms_source": 30}.get(c, 12)
         ws.column_dimensions[letter].width = width
         fmt = None
         if c in PCT:
@@ -146,6 +153,14 @@ def write_excel(df: pd.DataFrame, gone: pd.DataFrame, path: Path, isin_updated: 
         _fmt_sheet(xw.sheets["New listings"], list(new.columns))
         gone.to_excel(xw, "Gone since last run", index=False)
         _fmt_sheet(xw.sheets["Gone since last run"], list(gone.columns))
+
+        terms_path = Path(__file__).resolve().parent / "security_terms.csv"
+        if terms_path.exists():
+            t = pd.read_csv(terms_path, dtype=str).fillna("")
+            t = df[["code", "company", "category", "description", "ask"]].merge(
+                t.drop(columns=["category"], errors="ignore"), on="code", how="left")
+            t.sort_values(["category", "code"]).to_excel(xw, "All terms", index=False)
+            _fmt_sheet(xw.sheets["All terms"], list(t.columns))
 
         notes = pd.DataFrame(NOTES + [("ASX code list date", isin_updated or "unknown"),
                                       ("Securities scanned", str(len(df)))],

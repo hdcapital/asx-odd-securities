@@ -4,18 +4,18 @@ code,strike,shares_per_option,note
 1ADO,,,ADALTA LIMITED - OPTION EXPIRING 03-JUN-2028
 1TTO,,,THRIVE TRIBE TECHNOLOGIES LIMITED - OPTION EXPIRING 15-JUN-2029
 4DXOB,,,4DMEDICAL LIMITED - OPTION EXPIRING 01-SEP-2027
-88EOA,,,88 ENERGY LIMITED - OPTION EXPIRING 15-DEC-2026
-AAJOA,,,ARUMA RESOURCES LIMITED - OPTION EXPIRING 06-FEB-2029
-AAUO,,,ANTILLES GOLD LIMITED - OPTION EXPIRING 31-DEC-2026
-AAUOD,,,ANTILLES GOLD LIMITED - OPTION EXPIRING 31-DEC-2028
-ABRO,,,ALBRIGHT METALS LTD - OPTION EXPIRING 06-JAN-2029
-ABXO,,,ABX GROUP LIMITED - OPTION EXPIRING 17-NOV-2027
-ACRO,,,ACRUX LIMITED - OPTION EXPIRING 19-FEB-2027
-ACWOC,,,ACTINOGEN MEDICAL LIMITED - OPTION EXPIRING 30-SEP-2027
-ACWOD,,,ACTINOGEN MEDICAL LIMITED - OPTION EXPIRING 31-MAY-2027
-ADCO,,,ACDC METALS LTD - OPTION EXPIRING 23-JUN-2028
-ADDO,,,ADAVALE RESOURCES LIMITED - OPTION EXPIRING 31-DEC-2027
-ADDOD,,,ADAVALE RESOURCES LIMITED - OPTION EXPIRING 30-JUN-2028
+88EOA,0.1875,,Researched (high): https://announcements.asx.com.au/asxpdf/20260827/pdf/073bvrp4x7gvhc.pdf
+AAJOA,0.018,,Researched (medium): https://bulletin.webull.com/qbd/announcement/20260209/499501209/6db9f6169ecb2a88bd0850f804c05d26.pdf
+AAUO,0.01,,Researched (high): https://announcements.asx.com.au/asxpdf/20250328/pdf/06h2wm0yhjvys8.pdf
+AAUOD,0.02,,Researched (high): https://bulletin.webull.com/qbd/announcement/20260908/499509771/3ea099a6ad50d9d8ecf9407d9f924f9a.pdf
+ABRO,0.006,,Researched (high): https://bulletin.webull.com/qbd/announcement/20260415/499500356/c54f6f61f8b305e37cc2993135dc2e11.pdf
+ABXO,0.1,,Researched (high): https://bulletin.webull.com/qbd/announcement/20260415/499500662/b26b807200da20668a2bb588c0d78bbc.pdf
+ACRO,0.055,,Researched (medium): https://www.ig.com/en/shares/markets-shares/acrux-limited-options--aud-055-exp-19022027
+ACWOC,0.05,,Researched (high): https://announcements.asx.com.au/asxpdf/20260827/pdf/073brszvq7b9gw.pdf
+ACWOD,0.05,,Researched (high): https://announcements.asx.com.au/asxpdf/20260827/pdf/073brszvq7b9gw.pdf
+ADCO,0.075,,Researched (high): https://bulletin.webull.com/qbd/announcement/20260811/499500443/fc84956361ad6280660b79272960e1ba.pdf
+ADDO,0.1,,Researched (medium): https://announcements.asx.com.au/asxpdf/20260930/pdf/074r91hq76bw1d.pdf
+ADDOD,0.035,,Researched (medium): https://announcements.asx.com.au/asxpdf/20260930/pdf/074r91hq76bw1d.pdf
 ADNO,,,ANDROMEDA METALS LIMITED - OPTION EXPIRING 02-JUL-2027
 ADNOC,,,ANDROMEDA METALS LIMITED - OPTION EXPIRING 30-SEP-2027
 ADNOD,,,ANDROMEDA METALS LIMITED - OPTION EXPIRING 11-DEC-2027
@@ -27,18 +27,18 @@ AKNO,,,AUKING MINING LIMITED - OPTION EXPIRING 31-DEC-2026
 ALAO,,,AROVELLA THERAPEUTICS LIMITED - OPTION EXPIRING 24-MAY-2027
 AM3OA,,,AMARA MINERALS LIMITED - OPTION EXPIRING 01-MAY-2029
 AMUOC,,,AMERICAN URANIUM LTD - OPTION EXPIRING 25-SEP-2028
-ANTO,,,ANTIMONY RESOURCES LIMITED - OPTION EXPIRING 31-AUG-2030
-ANTOA,,,ANTIMONY RESOURCES LIMITED - OPTION EXPIRING 30-NOV-2026
-ANXO,,,ANAX METALS LIMITED - OPTION EXPIRING 07-JAN-2028
-APCO,,,APC MINERALS LIMITED - OPTION EXPIRING 19-APR-2027
-AQXO,,,ALICE QUEEN LIMITED - OPTION EXPIRING 30-JUN-2028
-ARDOC,,,ARGENT MINERALS LIMITED - OPTION EXPIRING 10-DEC-2027
-ARNO,,,ALDORO RESOURCES LIMITED - OPTION EXPIRING 01-JUN-2029
-AROO,,,ALTORO METALS LIMITED - OPTION EXPIRING 29-SEP-2028
-ARVO,,,ARTEMIS RESOURCES LIMITED - OPTION EXPIRING 13-OCT-2028
-ASNO,,,ANSON RESOURCES LIMITED - OPTION EXPIRING 30-DEC-2028
-AT4OE,,,AMERICAN TUNGSTEN & ANTIMONY LTD - OPTION EXPIRING 17-OCT-2028
-ATCO,,,ALTECH BATTERIES LTD - OPTION EXPIRING 31-OCT-2028
+ANTO,0.075,,Researched (high): https://www.aspecthuntley.com.au/asxdata/20260921/pdf/03137501.pdf
+ANTOA,0.2,,Researched (high): https://www.aspecthuntley.com.au/asxdata/20261029/pdf/03155447.pdf
+ANXO,0.025,,Researched (medium): https://tipranks.com/news/company-announcements/anax-metals-announces-top-holders-of-listed-options
+APCO,0.06,,Researched (high): https://bulletin.webull.com/qbd/announcement/20251204/499501226/2ef0a2c0ab467ea96f50a33fbe9e4c8c.pdf
+AQXO,0.008,,Researched (high): https://bulletin.webull.com/qbd/announcement/20251231/499501299/951cd1e14d0d24e904fb31c7e4098dd1.pdf
+ARDOC,0.042,,Researched (high): https://announcements.asx.com.au/asxpdf/20241217/pdf/06cqv3yrfx9rk0.pdf
+ARNO,0.12,,Researched (high): https://announcements.asx.com.au/asxpdf/20250918/pdf/06pbynmj52npcz.pdf
+AROO,0.008,,Researched (medium): https://announcements.asx.com.au/asxpdf/20260923/pdf/074flvz8w7zl6q.pdf
+ARVO,0.01,,Researched (medium): https://bulletin.webull.com/qbd/announcement/20260713/499501568/39fb4db435c9963ac94d35afceb45000.pdf
+ASNO,0.12,,Researched (high): https://bulletin.webull.com/qbd/announcement/20251219/499500816/1d7e6cbe0c0c00b35f950108234bf627.pdf
+AT4OE,0.1,,Researched (high): https://announcements.asx.com.au/asxpdf/20260812/pdf/072pfw5ym3ddw8.pdf
+ATCO,0.065,,Researched (high): https://bulletin.webull.com/qbd/announcement/20260102/499501844/f245948f271c1c252c6a26073ba0f0e3.pdf
 ATHOA,,,ALTERITY THERAPEUTICS LIMITED - OPTION EXPIRING 26-FEB-2027
 ATVO,,,ACTIVEPORT GROUP LTD - OPTION EXPIRING 27-NOV-2027
 ATXOA,,,AMPLIA THERAPEUTICS LIMITED - OPTION EXPIRING 31-OCT-2027
@@ -51,15 +51,16 @@ BAKO,,,BARKLY RARE EARTHS LIMITED - OPTION EXPIRING 28-JAN-2029
 BASO,,,BASS OIL LIMITED - OPTION EXPIRING 31-MAY-2028
 BASOD,,,BASS OIL LIMITED - OPTION EXPIRING 23-JUN-2028
 BCNOD,,,BEACON MINERALS LIMITED - OPTION EXPIRING 05-NOV-2029
-BGEO,,,BRIDGE SAAS LIMITED - OPTION EXPIRING 31-MAY-2031
-BHMOA,,,BROKEN HILL MINES LIMITED - OPTION EXPIRING 16-MAY-2029
-BIMO,,,BINDI METALS LIMITED - OPTION EXPIRING 17-DEC-2027
-BITO,,,BIOTRON LIMITED - OPTION EXPIRING 24-NOV-2027
-BKTOE,,,BLACK ROCK MINING LIMITED - OPTION EXPIRING 24-OCT-2027
-BM8O,,,BATTERY AGE MINERALS LTD - OPTION EXPIRING 19-SEP-2028
-BMMO,,,BAYAN MINING AND MINERALS LIMITED - OPTION EXPIRING 06-DEC-2027
-BNROA,,,BULLETIN RESOURCES LIMITED - OPTION EXPIRING 31-JUL-2027
-BPHOF,,,BPH ENERGY LTD - OPTION EXPIRING 10-FEB-2027
+BGEO,0.03,,Researched (medium): https://www.investsmart.com.au/investment-tools/shares/asx-price-sensitive-announcements/asx-bge/2530927
+BHMOA,0.48,,Researched (high): https://bulletin.webull.com/qbd/announcement/20251231/499501066/77142239a47f88ddf3608cfed96b00f1.pdf
+BIMO,0.145,,Researched (high): https://bulletin.webull.com/qbd/announcement/20251215/499502703/083cd0cd2da8b3b28a6b9a911a0c77e6.pdf
+BITO,0.02,,Researched (high): https://bulletin.webull.com/qbd/announcement/20251219/499501432/b058b97a3074ae184d0a2f4b0e3c9ce0.pdf
+BJYO,35,,Researched (high): https://magellangroup.com.au/mfg-options/faqs/what-is-the-exercise-price-of-the-options
+BKTOE,0.03,,Researched (medium): https://bulletin.webull.com/qbd/announcement/20260707/499501888/d0a7781cf22da97cf6ed7fecda6c5d0d.pdf
+BM8O,0.1,,Researched (high): https://announcements.asx.com.au/asxpdf/20250926/pdf/06prkc3t6rdqc0.pdf
+BMMO,0.075,,Researched (medium): https://www.tipranks.com/news/company-announcements/bayan-mining-and-minerals-announces-loyalty-offer-for-shareholders
+BNROA,0.1,,Researched (medium): https://tipranks.com/news/company-announcements/bulletin-resources-launches-shareholder-loyalty-offer
+BPHOF,0.03,,Researched (high): https://bulletin.webull.com/qbd/announcement/20260216/499501926/59c02d19243765dccd6ab0faeadcf117.pdf
 BRUOA,,,BURU ENERGY LIMITED - OPTION EXPIRING 23-JUN-2029
 BRYO,,,BARYS RESOURCES LIMITED - OPTION EXPIRING 24-OCT-2029
 BUYOA,,,BOUNTY OIL & GAS NL - OPTION EXPIRING 29-JUN-2030
@@ -74,13 +75,13 @@ CMOO,,,COSMO METALS LIMITED - OPTION EXPIRING 31-MAR-2027
 CMOOA,,,COSMO METALS LIMITED - OPTION EXPIRING 03-APR-2028
 CNJO,,,CONICO LTD - OPTION EXPIRING 31-DEC-2026
 CODO,,,CODA MINERALS LTD - OPTION EXPIRING 28-MAR-2029
-CP8O,,,CANADIAN PHOSPHATE LIMITED - OPTION EXPIRING 26-JUN-2028
-CPVOA,,,CLEARVUE TECHNOLOGIES LIMITED - OPTION EXPIRING 22-OCT-2029
-CR3O,,,CORE ENERGY MINERALS LTD - OPTION EXPIRING 31-MAR-2027
+CP8O,0.25,,Researched (medium): https://kalkinemedia.com/au/news/announcements/canadian-phosphate-reveals-203-million-options-outstanding-with-025-exercise-price-expiring-in-june-2028
+CPVOA,0.115,,Researched (medium): https://announcements.asx.com.au/asxpdf/20260909/pdf/073x2h81gygztz.pdf
+CR3O,0.035,,Researched (high): https://announcements.asx.com.au/asxpdf/20250620/pdf/06ky8q3l6cxrz7.pdf
 CR3OD,,,CORE ENERGY MINERALS LTD - OPTION EXPIRING 30-JUN-2027
-CR3OE,,,CORE ENERGY MINERALS LTD - OPTION EXPIRING 20-FEB-2029
-CRRO,,,CRITICAL RESOURCES LIMITED - OPTION EXPIRING 23-APR-2028
-CTNO,,,CATALINA RESOURCES LTD - OPTION EXPIRING 22-MAY-2027
+CR3OE,0.015,,Researched (medium): https://bulletin.webull.com/qbd/announcement/20260220/499502650/36904f64c0b4e521c72530d4b3642973.pdf
+CRRO,0.008,,Researched (high): https://data-api.marketindex.com.au/api/v1/announcements/XASX:CRR:6A1327463/pdf/inline/loyalty-option-offer-results
+CTNO,0.115,,Researched (high): https://bulletin.webull.com/qbd/announcement/20260728/499501929/40024a90013fe5f36aaf4ac5c33b2925.pdf
 CUFO,,,CUFE LTD - OPTION EXPIRING 13-JUN-2027
 CZNOA,,,CORAZON MINING LIMITED - OPTION EXPIRING 31-DEC-2027
 DALO,,,DALAROO METALS LTD - OPTION EXPIRING 23-AUG-2029
@@ -98,16 +99,18 @@ ENPO,,,ENTROPY NEURODYNAMICS LIMITED - OPTION EXPIRING 29-MAY-2027
 ENVO,,,ENOVA MINING LIMITED - OPTION EXPIRING 29-DEC-2028
 EPMO,,,ECLIPSE METALS LIMITED. - OPTION EXPIRING 22-OCT-2027
 EREO,,,EUROPEAN RESOURCES LIMITED - OPTION EXPIRING 01-OCT-2028
-ESROB,,,ESTRELLA RESOURCES LIMITED - OPTION EXPIRING 13-DEC-2026
-EUROC,,,EUROPEAN LITHIUM LIMITED - OPTION EXPIRING 30-APR-2027
-EV1O,,,EVOLUTION ENERGY MINERALS LIMITED - OPTION EXPIRING 17-SEP-2028
+ESROB,0.018,,Researched (high): https://bulletin.webull.com/qbd/announcement/20251203/499502604/43c43b805bf3ad6b651d34936d68f8c5.pdf
+EUROC,0.1,,Researched (high): https://announcements.asx.com.au/asxpdf/20260430/pdf/06z2g0g2j4m5cl.pdf
+EV1O,0.02,,Researched (medium): https://announcements.asx.com.au/asxpdf/20250930/pdf/06pxvh2yhhnl0p.pdf
 EVGOA,,,EVION GROUP NL - OPTION EXPIRING 07-AUG-2029
-EXLO,,,ELIXINOL WELLNESS LIMITED - OPTION EXPIRING 22-MAR-2027
-FFGO,,,FATFISH GROUP LIMITED - OPTION EXPIRING 11-APR-2027
-FG1OA,,,FLYNN GOLD LIMITED - OPTION EXPIRING 14-APR-2028
+EXLO,0.0075,,Researched (high): https://announcements.asx.com.au/asxpdf/20241003/pdf/068q97rqpk8xc2.pdf
+EXLOA,0.02,,Researched (high): https://announcements.asx.com.au/asxpdf/20251001/pdf/06pzdf7nyvvvbn.pdf
+FFGO,0.02,,Researched (high): https://announcements.asx.com.au/asxpdf/20240501/pdf/0633sy04jz8xks.pdf
+FG1OA,0.03,,Researched (medium): https://www.sharecafe.com.au/?p=265008
 FG1OB,,,FLYNN GOLD LIMITED - FLYNN GOLD LIMITED
-FGRO,,,FIRST GRAPHENE LIMITED - OPTION EXPIRING 30-JUN-2027
-FHSOA,,,FREEHILL MINING LIMITED. - OPTION EXPIRING 12-JUN-2029
+FGRO,0.085,,Researched (high): https://announcements.asx.com.au/asxpdf/20250829/pdf/06nl9dx84x3tnm.pdf
+FHSOA,0.005,,Researched (high): https://bulletin.webull.com/qbd/announcement/20260609/499502532/a9dff1388a809bbf1f1c885cb7b61c26.pdf
+FINO,0.008,,Researched (medium): https://kalkinemedia.com/au/news/announcements/fin-resources-announces-17-million-placement-of-425-million-shares-at-0004-each-with-free-listed-options
 FMEOA,,,FUTURE METALS NL - OPTION EXPIRING 02-SEP-2027
 FREO,,,FIREBRICK PHARMA LIMITED - OPTION EXPIRING 04-JUL-2028
 GA8OC,,,GOLDARC RESOURCES LIMITED - OPTION EXPIRING 30-JUN-2028
@@ -122,14 +125,18 @@ GNMO,,,GREAT NORTHERN MINERALS LIMITED - OPTION EXPIRING 24-OCT-2027
 GREO,,,GREENTECH METALS LIMITED - OPTION EXPIRING 09-JAN-2028
 GSEOD,,,GULF STREAM ENERGY LTD - OPTION EXPIRING 20-FEB-2029
 H3EO,,,H3 ENERGY LIMITED - OPTION EXPIRING 15-MAY-2027
-HIQOA,,,HITIQ LIMITED - OPTION EXPIRING 30-DEC-2028
-HLXO,,,HELIX RESOURCES LIMITED - OPTION EXPIRING 21-MAY-2027
-HLXOA,,,HELIX RESOURCES LIMITED - OPTION EXPIRING 10-SEP-2027
+HIQOA,0.022,,Researched (medium): https://announcements.asx.com.au/asxpdf/20260108/pdf/06v2qglyvw2s83.pdf
+HLMOB,0.022,,Researched (high): https://bulletin.webull.com/qbd/announcement/20251210/499500603/948d749483b0f472139671e9ecabe6e7.pdf
+HLMOC,0.015,,Researched (high): https://bulletin.webull.com/qbd/announcement/20251210/499500603/948d749483b0f472139671e9ecabe6e7.pdf
+HLXO,0.21,,Researched (high): https://bulletin.webull.com/qbd/announcement/20260423/499500350/bdd15901f04a78ed01be36685c328a3c.pdf
+HLXOA,0.07,,Researched (high): https://bulletin.webull.com/qbd/announcement/20260423/499500350/bdd15901f04a78ed01be36685c328a3c.pdf
 HPCO,,,THE HYDRATION PHARMACEUTICALS COMPANY LIMITED - OPTION EXPIRING 30-JUN-2029 DEFERRED
-HWKOB,,,HAWK RESOURCES LIMITED. - OPTION EXPIRING 30-NOV-2028
-I88OA,,,INFINI RESOURCES LIMITED - OPTION EXPIRING 30-SEP-2028
-IBRO,,,IRON BEAR RESOURCES LTD - OPTION EXPIRING 30-NOV-2028
-IBXO,,,IMAGION BIOSYSTEMS LIMITED - OPTION EXPIRING 13-DEC-2027
+HREO,0.06,,Researched (high): https://bulletin.webull.com/qbd/announcement/20260827/499500069/c8dbd2b02660684c1fd7d88da8b9a11b.pdf
+HWKOB,0.07,,Researched (medium): https://bulletin.webull.com/qbd/announcement/20260513/499509489/aa4270c150d748edb4fdfc901b1679ff.pdf
+HYDOC,0.01,,Researched (high): https://data-api.marketindex.com.au/api/v1/announcements/XASX:HYD:3A695552/pdf/inline/quoted-hydoc-options-top-20-and-distribution-schedule
+I88OA,0.27,,Researched (medium): https://www.tipranks.com/news/company-announcements/infini-resources-ltd-announces-bonus-issue-of-securities
+IBRO,0.032,,Researched (high): https://announcements.asx.com.au/asxpdf/20260930/pdf/074rwcb2ffgfhj.pdf
+IBXO,0.04,,Researched (high): https://announcements.asx.com.au/asxpdf/20260625/pdf/070zw1816h17cv.pdf
 IG6O,,,INTERNATIONAL GRAPHITE LIMITED - OPTION EXPIRING 19-AUG-2028
 IMIO,,,INFINITY MINING LIMITED - OPTION EXPIRING 15-NOV-2028
 IMUOF,,,IMUGENE LIMITED - OPTION EXPIRING 30-APR-2027
@@ -143,14 +150,15 @@ JAVOA,,,JAVELIN MINERALS LIMITED - OPTION EXPIRING 31-DEC-2028
 JLLO,,,JINDALEE LITHIUM LIMITED - OPTION EXPIRING 30-NOV-2028
 JLLOA,,,JINDALEE LITHIUM LIMITED - OPTION EXPIRING 30-JUN-2027
 JLLOB,,,JINDALEE LITHIUM LIMITED - OPTION EXPIRING 30-JUN-2029
-KCCO,,,KINCORA COPPER LIMITED - OPTION EXPIRING 26-MAR-2029
-KNIOA,,,KUNIKO LIMITED - OPTION EXPIRING 04-MAY-2029
-KOBO,,,KOBA RESOURCES LIMITED - OPTION EXPIRING 30-JUN-2028
-L1MO,,,LIGHTNING MINERALS LTD - OPTION EXPIRING 13-MAR-2028
-L1MOA,,,LIGHTNING MINERALS LTD - OPTION EXPIRING 03-MAR-2029
+KCCO,1.35,,Researched (high): https://bulletin.webull.com/qbd/announcement/20260326/499500396/48a2e017aede5ec19e18f12ab24aa42f.pdf
+KNIOA,0.07,,Researched (high): https://bulletin.webull.com/qbd/announcement/20260504/499500670/a8a9b087151f1800d8529e8b92c75099.pdf
+KOBO,0.08,,Researched (medium): https://kalkinemedia.com/au/news/announcements/koba-resources-seeks-asx-listing-for-8078-million-options-exercisable-at-008-until-june-2028
+KTAOD,0.02,,Researched (high): https://announcements.asx.com.au/asxpdf/20260930/pdf/074qvkmdjj3ypd.pdf
+L1MO,0.25,,Researched (high): https://announcements.asx.com.au/asxpdf/20250930/pdf/06py6wz6r6yyr9.pdf
+L1MOA,0.04,,Researched (medium): https://bulletin.webull.com/qbd/announcement/20260223/499500408/38a7d0f371bb273746bbd84a4b3009f0.pdf
 LITOC,,,LIVIUM LTD - OPTION EXPIRING 28-APR-2028
-LKEO,,,LAKE RESOURCES N.L. - OPTION EXPIRING 14-OCT-2028
-LMLO,,,LINCOLN MINERALS LIMITED - OPTION EXPIRING 31-DEC-2027
+LKEO,0.05,,Researched (high): https://investorpa.com/announcement/205592/
+LMLO,0.01,,Researched (high): https://announcements.asx.com.au/asxpdf/20250903/pdf/06nsr60r9l2z0m.pdf
 LRDO,,,LORD RESOURCES LIMITED - OPTION EXPIRING 31-JAN-2027
 LSRO,,,LODESTAR MINERALS LIMITED - OPTION EXPIRING 31-AUG-2029
 LSROB,,,LODESTAR MINERALS LIMITED - OPTION EXPIRING 31-JAN-2029
@@ -166,14 +174,16 @@ MGUOA,,,MAGNUM MINING AND EXPLORATION LIMITED - OPTION EXPIRING 15-JAN-2029
 MHMO,,,MOUNT HOPE MINING LIMITED - OPTION EXPIRING 30-JUN-2028
 MMLO,,,MCLAREN MINERALS LIMITED - OPTION EXPIRING 05-FEB-2028
 MMROA,,,MEC RESOURCES LIMITED - OPTION EXPIRING 10-FEB-2027
-MNBO,,,MINBOS RESOURCES LIMITED - OPTION EXPIRING 20-DEC-2026
-MNBOC,,,MINBOS RESOURCES LIMITED - OPTION EXPIRING 15-DEC-2028
-MNBOD,,,MINBOS RESOURCES LIMITED - OPTION EXPIRING 16-MAR-2029
-MRQOD,,,MRG METALS LIMITED - OPTION EXPIRING 19-AUG-2027
-MTHO,,,MITHRIL SILVER AND GOLD LIMITED - OPTION EXPIRING 14-MAY-2027
+MNBO,0.1,,Researched (medium): https://www.worldfertilizer.com/potash/16122024/first-commitments-received-for-us44-million-placement-and-stage-2-export-progress/
+MNBOC,0.04,,Researched (high): https://bulletin.webull.com/qbd/announcement/20251219/499501336/db5a265edffa4280ae58abbfe575220c.pdf
+MNBOD,0.04,,Researched (medium): https://bulletin.webull.com/qbd/announcement/20260316/499501336/1fa13ea22e6a925113bd43f4acab7fc8.pdf
+MRQOD,0.004,,Researched (high): https://announcements.asx.com.au/asxpdf/20251013/pdf/06qfmkxhn3cssg.pdf
+MTHO,0.2,,Researched (medium): https://bulletin.webull.com/qbd/announcement/20260508/499501133/65ddbec99f5e09901ac13da2329a36cb.pdf
 NACO,,,NAOS EX-50 OPPORTUNITIES COMPANY LIMITED - OPTION EXPIRING 31-DEC-2026
-NAEO,,,NEW AGE EXPLORATION LIMITED - OPTION EXPIRING 21-DEC-2026
-NCCO,,,NAOS EMERGING OPPORTUNITIES COMPANY LIMITED - OPTION EXPIRING 31-DEC-2026
+NAEO,0.012,,Researched (high): https://nae.net.au/wp-content/uploads/20260205_NAE_Target-Market-Determination-Options_FINAL.pdf
+NC6OB,0.05,,Researched (high): https://announcements.asx.com.au/asxpdf/20260831/pdf/073jcw8qjg6jpg.pdf
+NCCO,0.67,,Researched (high): https://strawman.com/member/uploads/objects/57/46fdb16b54430605990ef6c0bcdb7cb3629dee.pdf
+NESO,0.003,,Researched (medium): https://announcements.asx.com.au/asxpdf/20260923/pdf/074f95vqb9vtsz.pdf
 NOUO,,,NOUMI LIMITED - OPTION EXPIRING 30-JUL-2027
 NOVO,,,NOVATTI GROUP LIMITED - OPTION EXPIRING 31-JAN-2027
 NOVOA,,,NOVATTI GROUP LIMITED - OPTION EXPIRING 31-DEC-2027
@@ -191,11 +201,12 @@ OSLOC,,,ONCOSIL MEDICAL LTD - OPTION EXPIRING 20-DEC-2027
 OSLOD,,,ONCOSIL MEDICAL LTD - OPTION EXPIRING 31-JUL-2027
 OSLOE,,,ONCOSIL MEDICAL LTD - OPTION EXPIRING 30-JUN-2027
 OSSO,,,OCEAN SCIENCES LTD - OPTION EXPIRING 07-JUL-2027
-OVTO,,,OVANTI LIMITED - OPTION EXPIRING 07-MAY-2030
-PECO,,,PERPETUAL RESOURCES LIMITED - OPTION EXPIRING 31-DEC-2027
-PFEO,,,PANTERA MINERALS LIMITED - OPTION EXPIRING 15-MAR-2027
-PGDO,,,PEREGRINE GOLD LTD - OPTION EXPIRING 13-DEC-2027
-PGYOA,,,PILOT ENERGY LIMITED - OPTION EXPIRING 31-DEC-2026
+OVTO,0.025,,Researched (high): https://announcements.asx.com.au/asxpdf/20260512/pdf/06zhrtrwh54t0r.pdf
+PECO,0.03,,Researched (high): https://announcements.asx.com.au/asxpdf/20250930/pdf/06px0xj202nt20.pdf
+PERO,0.01,,Researched (medium): https://announcements.asx.com.au/asxpdf/20260901/pdf/073kmzr8fnrf3f.pdf
+PFEO,0.1,,Researched (high): https://announcements.asx.com.au/asxpdf/20250926/pdf/06pr4zdhscjbg3.pdf
+PGDO,0.25,,Researched (high): https://bulletin.webull.com/qbd/announcement/20251203/499501702/3f983238698e049a19473d379195f5f5.pdf
+PGYOA,0.825,,Researched (medium): https://bulletin.webull.com/qbd/announcement/20260311/499500330/c188fb7a6aa9db8852f012b133805afe.pdf
 PIMOB,,,PINNACLE MINERALS LIMITED - OPTION EXPIRING 22-AUG-2028
 PL3OB,,,PATAGONIA LITHIUM LTD - OPTION EXPIRING 31-DEC-2027
 PLCO,,,PLC RESOURCES LIMITED - OPTION EXPIRING 06-NOV-2028
@@ -213,18 +224,19 @@ RAGOD,,,RAGNAR METALS LIMITED - OPTION EXPIRING 02-DEC-2026
 RBXO,,,RESOURCE BASE LIMITED. - OPTION EXPIRING 26-MAR-2028
 RC1OA,,,REDCASTLE RESOURCES LIMITED - OPTION EXPIRING 07-OCT-2028
 RCMO,,,RAPID CRITICAL METALS LIMITED - OPTION EXPIRING 23-OCT-2027
-RGLO,,,RIVERSGOLD LIMITED - OPTION EXPIRING 20-DEC-2027
-RKBOE,,,ROKEBY RESOURCES LIMITED - OPTION EXPIRING 31-DEC-2026
-RLFO,,,RLF AGTECH LTD - OPTION EXPIRING 08-FEB-2027
-RMLOC,,,RESOLUTION MINERALS LTD - OPTION EXPIRING 31-JUL-2028
-RMLOD,,,RESOLUTION MINERALS LTD - OPTION EXPIRING 30-NOV-2029
-RMXO,,,RED MOUNTAIN MINING LIMITED - OPTION EXPIRING 10-MAY-2027
-RMXON,,,RED MOUNTAIN MINING LIMITED - OPTION EXPIRING 31-DEC-2028
-RR1OA,,,REACH RESOURCES LIMITED - OPTION EXPIRING 15-APR-2027
-SBRO,,,SABRE RESOURCES LIMITED - OPTION EXPIRING 30-JUN-2030
-SGAO,,,SARYTOGAN GRAPHITE LIMITED - OPTION EXPIRING 03-JUN-2028
-SGQOC,,,ST GEORGE MINING LIMITED - OPTION EXPIRING 24-FEB-2027
-SLZO,,,SULTAN RESOURCES LTD - OPTION EXPIRING 12-MAR-2027
+RGLO,0.01,,Researched (medium): https://announcements.asx.com.au/asxpdf/20250930/pdf/06py3697jclwv6.pdf
+RHYOA,0.2,,Researched (medium): https://investorpa.com/announcement/173940/
+RKBOE,0.08,,Researched (high): https://announcements.asx.com.au/asxpdf/20250926/pdf/06pqg9hlytyjh3.pdf
+RLFO,0.06,,Researched (high): https://announcements.asx.com.au/asxpdf/20241217/pdf/06cqw9xnm83scx.pdf
+RMLOC,0.018,,Researched (high): https://announcements.asx.com.au/asxpdf/20260930/pdf/074q0kc97jbd8m.pdf
+RMLOD,0.1,,Researched (high): https://announcements.asx.com.au/asxpdf/20260930/pdf/074q0kc97jbd8m.pdf
+RMXO,0.02,,Researched (medium): https://announcements.asx.com.au/asxpdf/20260929/pdf/074pb78sx4r9df.pdf
+RMXON,0.05,,Researched (medium): https://announcements.asx.com.au/asxpdf/20260828/pdf/073f3dl5k097hc.pdf
+RR1OA,0.015,,Researched (high): https://announcements.asx.com.au/asxpdf/20260922/pdf/074cgmvxj0sb3s.pdf
+SBRO,0.016,,Researched (medium): https://bulletin.webull.com/qbd/announcement/20260713/499501523/49bab0d13422ac19d46f8c54a5125a43.pdf
+SGAO,0.15,,Researched (medium): https://bulletin.webull.com/qbd/announcement/20251211/499501385/cd55f227782da94b7733b583479e0bc4.pdf
+SGQOC,0.04,,Researched (high): https://announcements.asx.com.au/asxpdf/20261110/pdf/076f82w3mqsysj.pdf
+SLZO,0.03,,Researched (high): https://announcements.asx.com.au/asxpdf/20251024/pdf/06r02kcp8l4d9x.pdf
 SLZOA,,,SULTAN RESOURCES LTD - OPTION EXPIRING 12-JUL-2030 DEFERRED
 SMNOA,,,STRUCTURAL MONITORING SYSTEMS PLC - OPTION EXPIRING 30-NOV-2027
 SPXOB,,,SPENDA LIMITED - OPTION EXPIRING 30-JUN-2031
@@ -237,14 +249,15 @@ T92OA,,,TERRA CRITICAL MINERALS LIMITED - OPTION EXPIRING 29-DEC-2030
 T92OB,,,TERRA CRITICAL MINERALS LIMITED - OPTION EXPIRING 31-DEC-2026
 TASO,,,TASMAN RESOURCES LTD - OPTION EXPIRING 14-JUN-2028
 TATO,,,TARTANA MINERALS LIMITED - OPTION EXPIRING 28-APR-2029
-TDOO,,,3D ENERGI LIMITED - OPTION EXPIRING 27-FEB-2028
-TEEO,,,TOP END ENERGY LIMITED - OPTION EXPIRING 31-JAN-2028
-TG1OA,,,TECHGEN METALS LTD - OPTION EXPIRING 09-SEP-2028
-TGMO,,,THETA GOLD MINES LIMITED - OPTION EXPIRING 01-JUN-2027
-TM1O,,,TERRA METALS LIMITED - OPTION EXPIRING 16-JUN-2027
-TMSO,,,TENNANT MINERALS LIMITED - OPTION EXPIRING 31-DEC-2027
+TDOO,0.21,,Researched (medium): https://announcements.asx.com.au/asxpdf/20251216/pdf/06td13pw81kd1q.pdf
+TEEO,0.15,,Researched (high): https://announcements.asx.com.au/asxpdf/20260313/pdf/06xdh618mqtd10.pdf
+TG1OA,0.036,,Researched (high): https://announcements.asx.com.au/asxpdf/20260909/pdf/073xpkr6sgspzm.pdf
+TGMO,0.32,,Researched (medium): https://bulletin.webull.com/qbd/announcement/20260219/499501565/217a1f8da7acadec92dabe5934fb3e0c.pdf
+TM1O,0.07,,Researched (high): https://announcements.asx.com.au/asxpdf/20250925/pdf/06pp1bhvxq84g0.pdf
+TMKO,0.44,,Researched (medium): https://bulletin.webull.com/qbd/announcement/20260505/499501562/f6e1b6fb571a9010f4e561105a652a27.pdf
+TMSO,0.048,,Researched (high): https://bulletin.webull.com/qbd/announcement/20250530/499501658/59b94703702b9ccc0ec41f7eaed8a11c.pdf
 TMSOB,,,TENNANT MINERALS LIMITED - OPTION EXPIRING 30-JUN-2030
-TSKO,,,TUSKER MINERALS LTD - OPTION EXPIRING 29-APR-2029
+TSKO,0.15,,Researched (medium): https://www.finnewsnetwork.com.au/archives/finance_news_network4532961.html
 TSLO,,,TITANIUM SANDS LIMITED - OPTION EXPIRING 16-FEB-2029
 TTMOA,,,TITAN MINERALS LIMITED - OPTION EXPIRING 31-JAN-2027
 TVNOB,,,TIVAN LIMITED - OPTION EXPIRING 30-SEP-2027
@@ -261,10 +274,11 @@ WHKOB,,,WHITEHAWK LIMITED - OPTION EXPIRING 31-JUL-2029
 WINO,,,WIN METALS LTD - OPTION EXPIRING 03-FEB-2028
 WWIO,,,WEST WITS MINING LIMITED - OPTION EXPIRING 05-SEP-2027
 WYXOA,,,WESTERN YILGARN NL - OPTION EXPIRING 06-MAY-2028
-X2MO,,,X2M CONNECT LIMITED - OPTION EXPIRING 02-JUN-2029 DEFERRED
-X2MOA,,,X2M CONNECT LIMITED - OPTION EXPIRING 02-JUN-2029
+X2MO,0.008,,Researched (medium): https://announcements.asx.com.au/asxpdf/20260812/pdf/072p12sc82t8vm.pdf
+X2MOA,0.008,,Researched (high): https://announcements.asx.com.au/asxpdf/20260812/pdf/072p12sc82t8vm.pdf
 X2MOB,,,X2M CONNECT LIMITED - OPTION EXPIRING 02-JUN-2029 DEFERRED
-XGLO,,,XAMBLE GROUP LIMITED - OPTION EXPIRING 31-AUG-2028
-YARO,,,YARI RESOURCES LTD - OPTION EXPIRING 30-SEP-2028
-YUGOB,,,YUGO METALS LIMITED - OPTION EXPIRING 15-AUG-2028
-ZEUO,,,ZEUS RESOURCES LIMITED - OPTION EXPIRING 12-DEC-2027
+XGLO,0.025,,Researched (high): https://bulletin.webull.com/qbd/announcement/20260824/499501539/a965e35a0c62993135f5153e15077a35.pdf
+YARO,0.0075,,Researched (medium): https://kalkinemedia.com/au/news/announcements/yari-resources-announces-appendix-3b-filing-for-proposed-share-and-listed-option-issuance
+YUGOB,0.02,,Researched (high): https://www.marketindex.com.au/data-api/api/v1/announcements/XASX:YUG:6A1352222/pdf/inline/quarterly-activitiesappendix-5b-cash-flow-report
+ZEUO,0.02,,Researched (high): https://financialfilings.com/filings/zeus-resources-limited/capitalfinancing-update/2024/45106839/
+ZNCOA,0.077,,Researched (high): https://bulletin.webull.com/qbd/announcement/20260723/499500552/f085cb527d1905ce36169a106d1096a0.pdf
